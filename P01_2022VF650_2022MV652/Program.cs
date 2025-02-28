@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<parqueosDBContext>(options =>
 options.UseSqlServer(
-    builder.Configuration.GetConnectionString("parqueoDbConnection")
+    builder.Configuration.GetConnectionString("parqueosDbConnection")
     ));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
