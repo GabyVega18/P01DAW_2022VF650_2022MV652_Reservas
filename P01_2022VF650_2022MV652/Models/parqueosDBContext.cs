@@ -15,7 +15,7 @@ namespace P01_2022VF650_2022MV652.Models
 
             public DbSet<espacios> espacios_parqueo{ get; set; }
 
-           public DbSet<reservas> ereservas { get; set; }
+           public DbSet<reservas> reservas { get; set; }
 
 
 
